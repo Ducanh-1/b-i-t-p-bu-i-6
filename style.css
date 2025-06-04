@@ -1,7 +1,7 @@
 body {
   background-color: #eee;
 }
-
+/*  ở code cũ mình up lên git nó vẫn hiện dấu chấm ở */
 .container {
   width: 1170px;
   margin-left: auto;
@@ -25,7 +25,7 @@ body {
 }
 .post-title {
   font: 32px "Bree Serif", serif;
-  width: 522px;
+  width: 596px;
   height: 91px;
   margin: 0px 128px 21px 0;
   color: #333;
@@ -97,12 +97,16 @@ strong {
 
   color: #17678a;
   font: 16px georgia serif;
-  margin: 0 0 4px;
+  margin: 0 0 4px 15px;
 }
 
 .post-list-item a {
   display: inline-block;
-  width: 100%;
+  color: inherit;
+}
+
+.post-list-item a:hover {
+  text-decoration: underline;
 }
 
 .sidebar-title {
